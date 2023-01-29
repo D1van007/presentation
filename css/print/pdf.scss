@@ -16,6 +16,7 @@ html.print-pdf {
 		overflow: visible;
 	}
 
+
 	body {
 		margin: 0 auto !important;
 		border: 0;
@@ -100,6 +101,7 @@ html.print-pdf {
 		box-shadow: none;
 	}
 
+	
 	/* Slide backgrounds are placed inside of their slide when exporting to PDF */
 	.reveal .backgrounds {
 		display: none;
@@ -152,4 +154,9 @@ html.print-pdf {
 	.aria-status {
 		display: none;
 	}
+
+	.reveal li {
+	list-style-type: none;
+}
+
 }
